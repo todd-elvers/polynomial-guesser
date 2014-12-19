@@ -11,10 +11,10 @@ class PolynomialGuesserDemoRunner {
 
         System.in.withReader {
             print("p(1): ")
-            resultOfP_1 = new BigInteger(it.readLine())  //p(1)+1
+            resultOfP_1 = new BigInteger(it.readLine())  // p(1)
 
             print "p(${resultOfP_1 + 1}): "
-            resultOfP_P1Plus1 = new BigInteger(it.readLine()) //p(N)
+            resultOfP_P1Plus1 = new BigInteger(it.readLine()) // p(p(1)+1)
         }
 
         List<Integer> coefficients = PolynomialGuesser.guess(resultOfP_1, resultOfP_P1Plus1)
