@@ -5,8 +5,6 @@ import org.toddelvers.polynomial.PolynomialFormatter
 
 class PolynomialGuesserDemoRunner {
 
-    //TODO: Correct project name
-    //TODO: Publish to github
     static void main(String[] args) {
         BigInteger resultOfP_1
         BigInteger resultOfP_P1Plus1
