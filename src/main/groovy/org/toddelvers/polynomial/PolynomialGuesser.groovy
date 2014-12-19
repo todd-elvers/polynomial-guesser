@@ -40,12 +40,12 @@ class PolynomialGuesser {
     /**
      * Convenience method for <code>guess(BigInteger, BigInteger)</code> to allow for integers as input.
      *
-     * @param pOne the result of your polynomial when x = 1
-     * @param pOnePlusOne the result of your polynomial when x = p(1)+1
+     * @param resultOfP_1 the result of your polynomial when x = 1
+     * @param resultOfP_P1Plus1 the result of your polynomial when x = p(1)+1
      * @return the coefficients of your polynomial
      */
-    static List<Integer> guess(Integer p1, Integer p15){
-        return guess(new BigInteger(p1), new BigInteger(p15))
+    static List<Integer> guess(Integer resultOfP_1, Integer resultOfP_P1Plus1){
+        return guess(new BigInteger(resultOfP_1), new BigInteger(resultOfP_P1Plus1))
     }
 
 }
