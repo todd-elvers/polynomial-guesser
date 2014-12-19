@@ -10,10 +10,10 @@ class PolynomialGuesser {
      * <p>
      *     For example, consider the polynomial 2 + 3x + 5x^2 + 4x^3:   <br/>
      *     <pre>
-         *     P(1)             = 14
-         *     P(15)            = 14672
-         *     guess(14, 14672) = [2, 3, 5, 4]
-         *     [2, 3, 5, 4]     = 2 + 3x + 5x^2 + 4x^3
+         *     P(1)              = 14
+         *     P(P(1)+1) = P(15) = 14672
+         *     guess(14, 14672)  = [2, 3, 5, 4]
+         *     [2, 3, 5, 4]      = 2 + 3x + 5x^2 + 4x^3
      *     </pre>
      * </p>
      *
